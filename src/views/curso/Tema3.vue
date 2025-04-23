@@ -1,160 +1,286 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Planificación estratégica en proyectos de inteligencia de negocios (BI)'")
+    BannerInterno(:subTitulo="'3. Control y monitoreo del rendimiento de proyectos'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .row.mb-4
-        .col-12.col-xl-8(data-aos="fade-up")
-          p.mb-4 La planificación estratégica en proyectos de Inteligencia de Negocios (BI), es un proceso esencial para garantizar que la recopilación, análisis y visualización de datos, estén alineados con los objetivos organizacionales. La correcta planificación no solo optimiza recursos y mejora la toma de decisiones, sino que también permite la integración eficiente de herramientas de BI en los procesos empresariales (Moreno-Monsalve & Grueso Hinestroza, 2024).
-          .d-flex.align-items-start.bg-azul.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-34.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 En esta temática, exploraremos los principios de la planificación estratégica en BI, las fases claves del proceso y los factores críticos de éxito.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+      .row.mb-4.mx-0
+        .col-12.col-xl-8.d-flex.align-items-center.bg-morado-claro.p-4(data-aos="fade-right")
+          p.mb-0(data-aos="fade-up") El control y monitoreo del rendimiento, son procesos fundamentales dentro de la gestión de proyectos de inteligencia de negocios (BI), dado que permiten garantizar el cumplimiento de los objetivos estratégicos, la calidad de los entregables y el uso eficiente de los recursos. Esta práctica no solo evalúa el avance del proyecto, sino que facilita la toma de decisiones oportunas y correctivas.
+        .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
 
       #t_3_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
           span.me-3 3.1
-          h2 ¿Qué es la planificación estratégica en proyectos de BI?
+          h2  Concepto y finalidad del monitoreo en proyectos BI
 
-      p.mb-4 La planificación estratégica en proyectos de Inteligencia de Negocios, se refiere a la definición de objetivos, metodologías, recursos y cronogramas para asegurar la implementación exitosa de soluciones BI dentro de una organización (Fuentes Adrianzén & Carrión Barco, 2021).
-      p.mb-4 Las características claves de la planificación en BI, son:
+      .row.mb-4
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 En el contexto de la gestión de proyectos de inteligencia de negocios (BI), el monitoreo representa un proceso sistemático y continuo orientado a recopilar, procesar y analizar información clave sobre el avance del proyecto. Su propósito central es comparar el desempeño real frente a lo planificado, identificando brechas y oportunidades de mejora en tiempo real. Esta función no es pasiva, sino proactiva, puesto que anticipa riesgos y permite ajustes oportunos.
+          p.mb-4 El control, por su parte, se refiere a la toma de decisiones tácticas y estratégicas para corregir desviaciones, garantizar la alineación con los objetivos definidos y optimizar la entrega de valor. Ambos procesos forman un ciclo permanente de retroalimentación que asegura la calidad del proyecto y su impacto en la organización.
+          span Según Hernández Gutiérrez, López Calvajar y Gutiérrez Rodríguez (2022), el control de proyectos constituye un pilar fundamental del ciclo de vida, dado que “permite tomar acciones preventivas y correctivas, con base en indicadores cuantificables de desempeño”.
+      
+      .row.mb-4
+        .col-12.col-xl-8
+          .mb-4.bg-azul-claro.p-4(data-aos='fade-up')
+            span Desde la perspectiva de la analítica empresarial, el monitoreo adquiere una relevancia particular, porque no solo mide entregables físicos o financieros, sino también indicadores de adopción tecnológica, calidad de los datos, satisfacción de usuarios y efectividad de modelos analíticos. Este enfoque multidimensional implica que los sistemas de BI no solo deben proveer reportes de avance, sino integrar dashboards en tiempo real, que conecten con la estrategia organizacional. 
+          p.mb-4 Moreno-Monsalve y Grueso Hinestroza (2024), destacan que “el monitoreo efectivo en proyectos BI debe ir más allá de métricas operativas, enfocándose también en el impacto transformador que la inteligencia de negocios genera sobre la cultura organizacional y los procesos claves”.
+          span En síntesis, el monitoreo y control son prácticas esenciales no solo para cumplir plazos o presupuestos, sino para maximizar el valor del conocimiento generado por los proyectos BI y asegurar su sostenibilidad dentro de un entorno empresarial, cambiante y digital.
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+
+
+      #t_3_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 3.2
+          h2 Indicadores claves de rendimiento (KPIs) en proyectos de BI
+      .row.mb-4
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-0
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-48.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 Los Indicadores claves de rendimiento (KPIs), son métricas cuantificables que permiten medir el progreso, la eficiencia y el impacto de un proyecto respecto a sus objetivos estratégicos.
+          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 En el ámbito de la Inteligencia de Negocios (BI), los KPIs son fundamentales para evaluar no solo el cumplimiento de plazos y presupuestos, sino también la calidad del análisis de datos, el nivel de adopción tecnológica y la generación de valor para la organización.
+          p.mb-4 Según Fuentes Adrianzén y Carrión Barco (2021), los KPIs en proyectos de BI “deben reflejar tanto los resultados esperados como los beneficios que los usuarios obtendrán en términos de toma de decisiones basada en datos”.
+          p.mb-0.text-bold Los tipos de KPIs relevantes en proyectos de B, son:
+      
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+        div.px-5.pb-md-3
+      
+          .row.mb-4
+            .col-12.col-lg-7.col-xl-8
+              AcordionA(tipo="b")
+                .div(titulo="KPIs de eficiencia operativa")
+                  p ●	Tiempo promedio de carga de dashboards.<br><br>●	Tiempo de respuesta del sistema BI ante consultas complejas.<br><br>●	Número de tareas completadas por sprint (en enfoques ágiles).
+
+                .div(titulo="KPIs de calidad de datos")
+                  p ●	Porcentaje de registros duplicados o erróneos detectados.<br><br>●	Nivel de completitud y consistencia de las bases de datos.<br><br>●	Tiempo promedio de validación de datos, antes de su análisis.
+
+                .div(titulo="KPIs de adopción y uso")
+                  p ●	Número de usuarios activos en la herramienta BI.<br><br>●	Frecuencia de uso de reportes y paneles interactivos.<br><br>●	Nivel de satisfacción del usuario final (medido por encuestas).
+
+                .div(titulo="KPIs estratégicos")
+                  p ●	Impacto del BI en la reducción de costos operativos.<br><br>●	Incremento en la precisión de predicciones de demanda.<br><br>●	Alineación de las métricas del BI con los objetivos del negocio.
+
+            .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+              img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
+          
+          p.mb-4 Como afirman Moreno-Monsalve y Grueso Hinestroza (2024), la correcta definición de KPIs “no debe limitarse a una visión técnica, sino que debe responder a las expectativas del cliente interno y al alineamiento con la estrategia corporativa”.
+
+          p.mb-4 Las buenas prácticas para definir KPIs efectivos en BI, son:
+          .row.mb-4.justify-content-center
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-51.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Relevancia
+                p.px-1.text-small.mb-0.text-center Deben estar directamente ligados a los objetivos del proyecto.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Medibilidad
+                p.px-1.text-small.mb-0.text-center Deben tener unidades claras y métodos confiables de cálculo.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-53.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Periodicidad
+                p.px-1.text-small.mb-0.text-center Es clave establecer con qué frecuencia serán monitoreados.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-54.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Visualización
+                p.px-1.text-small.mb-0.text-center Deben ser representados gráficamente (<i>dashboards</i>, gráficas, etc.) para facilitar la interpretación por los usuarios.
+
+      .d-flex.align-items-start.bg-azul.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-55.svg', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0 El diseño e implementación de KPIs bien estructurados, constituye una de las fortalezas distintivas de un proyecto BI exitoso, pues permite no solo evaluar el rendimiento actual, sino orientar la toma de decisiones futuras con base en evidencia empírica y medible.
+
+      #t_3_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 3.3
+          h2 Herramientas de monitoreo y control en BI
+
+      .row.mb-4
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          .mb-4.bg-azul-claro.p-4(data-aos='fade-up')
+            span La implementación de herramientas tecnológicas es esencial para llevar a cabo un monitoreo y control efectivos en proyectos de Inteligencia de Negocios. Estas herramientas permiten centralizar la información, automatizar la generación de reportes, visualizar indicadores claves de rendimiento (KPIs) en tiempo real y facilitar la toma de decisiones basada en datos.
+          p.mb-4 De acuerdo con Hernández Gutiérrez, López Calvajar y Gutiérrez Rodríguez (2022), “la supervisión automatizada de proyectos mediante plataformas BI, mejora la capacidad de reacción ante desviaciones y fortalece el enfoque estratégico del análisis”.
+          span Las herramientas destacadas para el monitoreo de proyectos BI, son:
+
+      .row.mb-4
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Microsoft Power BI")
+              p ●	Permite crear dashboards interactivos, alertas automáticas y reportes personalizados.<br><br>●	Integración con múltiples fuentes (Excel, SQL Server, Azure, etc.).<br><br>●	Visualización en tiempo real de KPIs y análisis comparativos entre áreas de la organización.
+
+            .div(titulo="Tableau")
+              p ●	Potente motor gráfico y facilidad de uso para usuarios no técnicos.<br><br>●	Ideal para el análisis visual de grandes volúmenes de datos.<br><br>●	Permite control de accesos, trazabilidad de datos y actualizaciones programadas.
+
+            .div(titulo="Google Looker Studio (antes Data Studio)")
+              p ●	Integración con plataformas de Google (BigQuery, Analytics, Sheets).<br><br>●	Útil para pequeñas y medianas empresas por su carácter gratuito y fácil despliegue.<br><br>●	Soporte para reportes colaborativos y monitoreo de campañas digitales.
+
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
+
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Qlik Sense")
+              p ●	Tecnología asociativa que permite explorar datos sin rutas predefinidas.<br><br>●	Indicadores de desempeño personalizables y análisis predictivo mediante IA.<br><br>●	Recomendado para escenarios donde se requiere exploración libre y descentralizada.
+
+            .div(titulo="Jira + Confluence (para gestión ágil del proyecto)")
+              p ●	Jira permite el seguimiento de tareas, sprints y velocidad de equipos.<br><br>●	Confluence sirve como repositorio documental de avances, retrospectivas y bitácoras.
+
+            .div(titulo="Asana / Monday / Trello")
+              p ●	Herramientas de gestión de tareas y cronogramas con integración a BI.<br><br>●	Ayudan a visualizar el progreso y las responsabilidades del equipo.
+
+      p.mb-4 Consideraciones al seleccionar herramientas de monitoreo:
+
+      .row.mb-4.bg-azul-claro.bg-full-width.p-4.pb-xl-0
+        .col-12.col-xl-8.d-flex
+          .my-auto
+            p.mb-4 ●	<b>Escalabilidad.</b> La herramienta debe permitir el crecimiento del volumen de datos y usuarios.<br><br>●	<b>Usabilidad.</b> Debe ser intuitiva y permitir la autogestión de reportes, por parte del usuario final.<br><br>●	<b>Seguridad.</b> Control de accesos, cifrado de datos y respaldo automático, son aspectos claves.<br><br>●	<b>Integrabilidad.</b> Capacidad de conectarse con sistemas existentes en la organización (ERP, CRM, bases de datos).
+
+            span Según Fuentes Adrianzén y Carrión Barco (2021), la integración adecuada de herramientas de monitoreo en BI “contribuye a cerrar el ciclo entre los objetivos estratégicos, la operación diaria y la retroalimentación para la mejora continua”.
+        .col-4.d-none.d-xl-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
+
+      #t_3_4.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 3.4
+          h2 Prácticas recomendadas para el control de proyectos BI
+
+      p.mb-4 La gestión eficiente del control en proyectos de <i>Business Intelligence</i> no solo garantiza el cumplimiento de objetivos, sino que permite reaccionar a tiempo ante desviaciones, promoviendo una cultura basada en datos y mejora continua. A continuación, se describen algunas prácticas claves:
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Revisiones periódicas (Daily/Weekly Reviews)")
+              p Las reuniones de seguimiento en intervalos regulares fomentan la transparencia del avance del proyecto. Permiten detectar desviaciones tempranas, validar entregables parciales y ajustar prioridades, integrando activamente a todos los <i>stakeholders</i>.
+            .div(titulo="Métricas objetivas y compartidas")
+              p Los indicadores claves de rendimiento (KPIs) deben ser medibles, relevantes y comprensibles por todos los miembros del equipo. Establecer una línea base, metas esperadas y criterios de éxito, facilita la evaluación del impacto de las acciones y decisiones.
+            .div(titulo="Alertas automatizadas y tableros de control visual")
+              p Plataformas como Power BI, Tableau o Looker, permiten configurar notificaciones automáticas cuando se superan umbrales críticos. Esto posibilita una respuesta oportuna y reduce la dependencia del monitoreo manual, mejorando la eficiencia operativa.
+            .div(titulo="Toma de decisiones respaldada en evidencia")
+              p Cada acción correctiva o ajuste de estrategia debe sustentarse en análisis de datos objetivos, evitando la intuición o la improvisación. La trazabilidad de decisiones fortalece la rendición de cuentas y aumenta la credibilidad del sistema BI.
+
+      .d-flex.align-items-start.bg-azul.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-61.svg', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0 Como lo afirma Joyanes Aguilar (2020), “la automatización del monitoreo a través de visualizaciones comprensibles, no solo fortalece la comunicación entre áreas, sino que agiliza la respuesta ante incidentes o desviaciones relevantes del proyecto”.
+
+      #t_3_5.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 3.5
+          h2 Estudio de caso. Monitoreo de un proyecto BI en entorno logístico y de salud
+
+      p.mb-4 El monitoreo y control en proyectos de <i>Business Intelligence (BI)</i> son fundamentales para garantizar la eficiencia operativa, permite alinear el desempeño con los objetivos estratégicos, facilitando decisiones oportunas y mejora continua. A continuación, se presentan dos casos que ilustran la aplicación efectiva de estas prácticas, en contextos reales.
+      p.mb-4.text-bold Caso 1. Optimización logística con BI
 
       .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
         div.px-4.px-md-5.py-md-3
           SlyderA(tipo="b").bg-white
             .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Alineación con los objetivos del negocio
-                p La estrategia de BI debe responder a necesidades empresariales concretas.
+                p.text-bold Contexto
+                p Una empresa de logística decide implementar un sistema de BI para mejorar la eficiencia en la entrega de pedidos a nivel nacional. El objetivo principal era optimizar rutas y reducir los tiempos de distribución.
+              .d-none.d-lg-block.col-md-6.col-lg-5.col-xl-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Optimización de la calidad de datos
-                p La información debe ser precisa, completa y confiable.
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Selección de tecnologías adecuadas
-                p Se deben evaluar herramientas como <b>Power BI, Tableau, Looker</b> y otras plataformas analíticas.
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Gestión del cambio organizacional
-                p La adopción de BI requiere la capacitación y el compromiso de los empleados.
+                p.text-bold Indicadores de control definidos 
+                p ●	Tiempo de implementación vs. cronograma inicial.<br><br>●	Porcentaje de entregas optimizadas por el sistema BI.<br><br>●	Nivel de satisfacción de los usuarios del dashboard.
 
-      .d-flex.align-items-start.bg-azul-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-39.svg', alt='Texto descriptivo de la imagen')
+              .d-none.d-lg-block.col-md-6.col-lg-5.col-xl-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-63.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Solución técnica
+                p Se implementaron tableros en Power BI con integración de datos en tiempo real y alertas automáticas para detectar cuellos de botella. Los usuarios internos participaron en el ajuste de métricas y pruebas iterativas.
+              .d-none.d-lg-block.col-md-6.col-lg-5.col-xl-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-64.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Resultados
+                p ●	Reducción del 18 % en los tiempos promedio de entrega.<br><br>●	Mayor aceptación del sistema, por parte del personal operativo.<br><br>●	Mejor visibilidad del proceso logístico, a través de KPIs.
+
+              .d-none.d-lg-block.col-md-6.col-lg-5.col-xl-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-65.png', alt='Texto que describa la imagen')
+      p.mb-4 Según Moreno-Monsalve y Grueso Hinestroza (2024), el éxito de este proyecto se debió a la integración temprana de herramientas de monitoreo y la participación constante de los usuarios finales.
+      p.mb-4.text-bold Caso 2. Proyecto BI en red de clínicas privadas
+
+      .row.mb-4
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Contexto organizacional")
+              p Una cadena de clínicas privadas en Colombia, enfrentaba dificultades en la generación de reportes y seguimiento de indicadores operativos. Se decide desarrollar un sistema BI para mejorar la atención al paciente y la eficiencia administrativa.
+            .div(titulo="Problemáticas detectadas")
+              p ●	Reportes manuales y desactualizados.<br><br>●	KPIs clínicos no trazables.<br><br>●	Baja coordinación entre áreas clínicas y administrativas.
+
+            .div(titulo="Solución implementada")
+              p El equipo de proyecto (analistas, médicos, TI y gerentes) desarrolló un <i>dashboard</i> centralizado en Power BI y gestionó el proyecto, mediante marcos ágiles con Jira y Confluence.
+
+      .row.mb-4
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Indicadores monitoreados")
+              p ●	Tiempo promedio de espera en urgencias.<br><br>●	Tasa de ocupación de camas.<br><br>●	Índice de satisfacción del paciente.<br><br>●	Errores en la  prescripción médica.<br><br>●	Costos operativos por sede.
+
+            .div(titulo="Herramientas utilizadas")
+              p ●	<b>Power BI.</b> Visualización y automatización de KPIs.<br><br>●	<b>SQL Server.</b> Consolidación de datos.<br><br>●	<b>Jira.</b> Seguimiento de sprints y tareas.<br><br>●	<b>Confluence.</b> Documentación de retrospectivas y aprendizajes.
+
+            .div(titulo="Resultados tras seis meses")
+              p ●	Disminución del 40 % en tiempos de espera.<br><br>●	25 % de mejora en programación de cirugías.<br><br>●	20 % de aumento en satisfacción del paciente.<br><br>●	Cultura organizacional orientada a decisiones basadas en datos.
+
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-67.png', alt='Texto que describa la imagen')
+
+      .d-flex.align-items-start.bg-azul.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-68.svg', alt='Texto descriptivo de la imagen')
         .my-auto
-          p.pe-xl-3.mb-0 Según Moreno-Monsalve y Grueso Hinestroza (2024), una planificación estratégica bien ejecutada en proyectos de BI mejora la integración de datos y permite la optimización de procesos empresariales.
+          p.pe-xl-3.mb-0 Como afirman Hernández Gutiérrez, López Calvajar y Gutiérrez Rodríguez (2022), el éxito del monitoreo y control en proyectos de BI, radica en la alineación estratégica, la formación del equipo y el uso de metodologías ágiles, con herramientas colaborativas.
 
-      #t_3_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.2
-          h2 Fases claves en la planificación estratégica de un proyecto de BI 
 
-      p.mb-4 El proceso de planificación estratégica de un proyecto de BI suele dividirse en varias fases interdependientes, alineadas con las mejores prácticas de gestión de proyectos y análisis de datos.
+      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important').mb-5
+        .p-4.p-md-5
+          #Actividad
+            <Actividad :cuestionario='cuestionario'/>
 
-      .row.mb-4
-        .col-8.col-xl-8(data-aos="fade-up")
-          LineaTiempoD.color-secundario.large
-            p(numero='1' titulo='Fase Definición de objetivos y requerimientos') Esta fase es crítica, puesto que permite determinar qué información se necesita para mejorar la toma de decisiones dentro de la empresa.<br>●	Identificación de objetivos estratégicos: ¿Qué preguntas debe responder el BI?<br>●	Análisis de stakeholders. ¿Quiénes usarán las herramientas de BI?<br>●	Identificación de fuentes de datos. ¿Dónde se encuentran los datos claves?<br>Según Fuentes Adrianzén y Carrión Barco (2021), un proyecto de BI exitoso debe comenzar con una fase de análisis detallado, asegurando que las soluciones sean diseñadas, según las necesidades del negocio.<br>Ejemplo práctico. Un banco quiere reducir el riesgo de morosidad en créditos. Su objetivo es crear un sistema de BI que identifique clientes con mayor probabilidad de impago.
-            p(numero='2' titulo='Fase Diseño de la estrategia y selección de tecnología') Una vez definidos los objetivos, se procede a diseñar la arquitectura del proyecto.<br>●	Elección de herramientas de BI. Power BI, Tableau, Google Data Studio, etc.<br>●	Definición del modelo de datos. Centralización de la información en data warehouses.<br>●	Estrategias de integración, ¿Cómo se conectarán las bases de datos con las herramientas analíticas?<br>Moreno-Monsalve y Grueso Hinestroza (2024), destacan que la selección tecnológica debe considerar factores como escalabilidad, facilidad de uso y compatibilidad con los sistemas actuales.<br>Ejemplo práctico. Una empresa de retail elige Power BI para integrar datos de ventas y stock en tiempo real, permitiendo optimizar la reposición de productos.
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/58548") Gonzalez X. (2016) ¿cómo planificar un proyecto de inteligencia de negocio? Editorial UOC
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=okffVUx69zQ") [Vídeo] Universidade da Coruña. (24 de mayo 2021). 4.7. Seguimiento y evaluación
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
-            p(numero='3' titulo='Fase Desarrollo y pruebas') En esta etapa, se inicia la construcción de los modelos analíticos y la visualización de datos.<br>●	Limpieza y transformación de datos. Eliminación de datos duplicados o inconsistentes.<br>●	Desarrollo de dashboards e informes interactivos.<br>●	Pruebas de validación. Verificación de que los datos sean correctos y útiles.<br>Malagón Barinas (2019), menciona que una prueba exhaustiva de los sistemas BI antes del lanzamiento, es fundamental para evitar errores en los reportes generados.<br>Ejemplo práctico. Un equipo de BI analiza ventas históricas y descubre errores en la conversión de divisas en reportes financieros, los cuales deben corregirse antes de la implementación final.
 
-        .col-4.d-none.d-xl-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
-      .row.mb-4
-        .col-4.d-none.d-xl-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
-        .col-8.col-xl-8(data-aos="fade-up")
-          LineaTiempoD.color-secundario.large
-            p(numero='4' titulo='Fase Implementación y adopción') Una de las mayores dificultades en los proyectos de BI es la resistencia al cambio dentro de la organización.<br>●	Capacitación de usuarios finales. Formación en el uso de dashboards y reportes.<br>●	Estrategias de gestión del cambio. Incentivar el uso de BI mediante sesiones prácticas.<br>●	Monitoreo y ajustes. Recopilar retroalimentación para mejorar la herramienta.<br>Hernández Gutiérrez et al. (2022), indican que la adopción de BI depende en gran medida del acompañamiento continuo a los usuarios y la facilidad de uso de las herramientas.<br>Ejemplo práctico. Una empresa capacita a su equipo de marketing en el uso de Google Data Studio, permitiéndoles crear informes automatizados sobre el desempeño de campañas.
-
-            p(numero='5' titulo='Fase Evaluación y optimización') Una vez que el sistema de BI está en funcionamiento, es necesario medir su impacto.<br>Definición de KPIs (Indicadores claves de rendimiento):<br>●	Reducción del tiempo de generación de reportes.<br>●	Precisión en la predicción de ventas.<br>●	Optimización de costos operativos.<br>Análisis de ROI. ¿El sistema de BI ha generado mejoras cuantificables?<br>Optimización continua. Mejoras basadas en nuevos requerimientos del negocio.<br>La evaluación constante permite ajustar las herramientas de BI a los cambios del entorno empresarial y mejorar su efectividad.<br>Ejemplo práctico. Un hospital evalúa su sistema de BI y descubre que ha reducido en un 30 % el tiempo de espera de pacientes mediante un mejor análisis de la demanda de atención médica.
-
-      #t_3_3.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 3.3
-          h2 Factores claves de éxito en la planificación estratégica de BI
-
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          p.mb-4 Los factores claves de éxito en la planificación estratégica de BI, son:
-
-          .row.mb-4
-            .col-12.col-xl-7(data-aos="fade-up")
-              SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-42.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Compromiso de la alta dirección
-                  p.px-1.text-small.mb-0.d-flex.text-center La planificación de BI debe contar con el apoyo de los líderes organizacionales.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-43.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Calidad y gobernanza de datos
-                  p.px-1.text-small.mb-0.d-flex.text-center Los datos deben estar organizados y ser confiables para generar reportes precisos.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-44.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Selección adecuada de tecnología
-                  p.px-1.text-small.mb-0.d-flex.text-center Las herramientas de BI deben adaptarse a las necesidades de la empresa y su infraestructura.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-45.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Capacitación y cultura de datos
-                  p.px-1.text-small.mb-0.d-flex.text-center Es fundamental que los usuarios finales comprendan la importancia del análisis de datos.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-46.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Evaluación continua y ajustes
-                  p.px-1.text-small.mb-0.d-flex.text-center El sistema BI debe evolucionar, según los cambios en el negocio.
-
-            .col-12.col-xl-5(data-aos="fade-up")
-              img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-
-          .row.mb-4
-            .col-4.d-none.d-xl-block(data-aos="zoom-in")
-              img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8(data-aos="fade-up")
-              p.mb-4 Moreno-Monsalve y Grueso Hinestroza (2024), indican que los proyectos de BI deben ser considerados como iniciativas estratégicas a largo plazo, con una planificación y evaluación constantes para maximizar su impacto.
-              .bg-azul-claro.p-4
-                p.text-bold.mb-4 Reflexión
-                span La planificación estratégica en proyectos de Inteligencia de Negocios (BI), es un proceso integral que garantiza la alineación entre las herramientas analíticas y los objetivos empresariales. La correcta ejecución de las fases de planificación permite a las organizaciones mejorar la toma de decisiones basada en datos, optimizar recursos y generar un impacto significativo en su rendimiento operativo. 
-
-        .row.bg-azul.bg-full-width.py-4.mb-4
-          div.px-5.pb-md-3.py-4.d-flex
-            .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
-              h2.mb-4.pb-2.me-auto Caso de estudio 
-              p.mb-5(data-aos="fade-up") La implementación de sistemas de inteligencia de negocios requiere una planificación estructurada y adaptada al contexto de cada organización. En el PDF Caso de estudio , se presenta el desarrollo completo del proyecto realizado por RetailMax, desde la identificación del problema hasta la evaluación de resultados. A través de sus fases estratégicas, se evidencian los retos, decisiones tecnológicas y aprendizajes clave que permitieron transformar la toma de decisiones basada en datos y mejorar la eficiencia operativa en el sector retail.
-              a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Caso de estudio.pdf')" target="_blank")
-                img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-                p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Caso de estudio 
-            .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-              img.h-100(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
-
-        .bg-full-width.border-top-9-azul
-          .px-5.pt-5.pb-0
-            h2 Material complementario
-            .row
-              .col-12.col-md-6.col-lg-8
-                p.d-flex.my-4
-                  img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                  a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/273676") Aragón, J. & Amar Amar, J. J. (2024). Formulación de proyectos sociales en salud y gestión de riesgo: experiencias del Centro de Investigaciones en Desarrollo Humano
-                p.d-flex.my-4
-                  img.me-3.mb-auto.mt-1(src='@/assets/componentes/podcast-icon.svg' :style="{'max-width':'16px'}")
-                  a.text-small.text-primary(target="_blank", href="https://open.spotify.com/episode/2rmz81RmDOs8Yqir7OEPWR?si=51ecb51767c0404e") [Podcast] Buchtik, L. (2025). Riesgo en programas y proyectos ágiles
-              .col-12.col-md-6.col-lg-3
-                figure
-                  img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 </template>
 
@@ -165,177 +291,146 @@ export default {
   components: {
     Actividad,
   },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
+  data: () => ({
+    cuestionario: {
+      tema: 'Business Intelligence y Gestión de Proyectos',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de las siguientes opciones corresponde a una práctica recomendada para el control de proyectos BI?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ejecutar el proyecto sin interrupciones ni retroalimentación',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tomar decisiones sin depender de datos',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar alertas automatizadas para detectar desviaciones',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reunirse solo al final del proyecto para presentar resultados',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'El modelo ADKAR facilita la gestión del cambio en proyectos de BI mediante fases como conciencia, deseo, conocimiento, habilidad y refuerzo.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Relaciona los perfiles de un equipo de BI con su función principal: <br><br>A. Data Engineer, <br>B. Product Owner, <br>C. BI Developer<br><br>1. Prioriza requerimientos y representa al cliente<br>2. Construye arquitecturas de datos y mantiene pipelines<br>3. Crea dashboards e informes interactivos',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'A-3, B-2, C-1', esCorrecta: false },
+            { id: 'b', texto: 'A-2, B-1, C-3', esCorrecta: true },
+            { id: 'c', texto: 'A-1, B-3, C-2', esCorrecta: false },
+            { id: 'd', texto: 'A-3, B-1, C-2', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuáles de los siguientes son indicadores clave de desempeño (KPIs) en proyectos de BI? (Selecciona todas las que apliquen)',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tasa de errores en prescripciones médicas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Porcentaje de entregas a tiempo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tiempo de ejecución de reuniones del equipo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Velocidad del equipo por sprint',
+              esCorrecta: true,
+            },
+            {
+              id: 'e',
+              texto: 'Número de usuarios activos del sistema BI',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'En un proyecto de BI en el sector salud, se implementa un dashboard para monitorear tiempos de espera en urgencias. ¿Qué dos beneficios se esperaría obtener al aplicar correctamente herramientas de monitoreo y control?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducción del tiempo promedio de espera y mejora en la toma de decisiones clínicas con base en datos actualizados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aumento de la burocracia y documentación requerida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reducción de la participación del personal médico en la toma de decisiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Incremento en los costos operativos y de personal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a la gestión de proyectos de BI',
+    numeroUnidad: '2',
+    tituloUnidad: 'Implementación de Proyectos de Analítica de Datos',
   },
   menuPrincipal: {
     menu: [
@@ -15,37 +15,53 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Introducción a la pertinencia y funcionalidad de la propuesta didáctica',
+        titulo: 'Estrategias para la adopción y gestión del cambio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Componentes claves de BI',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Metodologías ágiles y tradicionales en BI',
+        titulo: 'Gestión de equipos de trabajo en proyectos de analítica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Metodologías tradicionales en la gestión de proyectos de BI',
+            titulo: 'Importancia de los equipos colaborativos en proyectos BI',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Metodologías ágiles en la gestión de proyectos de BI',
+            titulo: 'Perfiles claves en un equipo de analítica de datos',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Metodologías ágiles para gestionar equipos BI',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Indicadores claves de desempeño en equipos de BI',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo:
+              'Estrategias efectivas de liderazgo, en equipos de analítica',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Caso aplicado: equipo BI en el sector salud',
+            hash: 't_2_6',
           },
         ],
       },
@@ -53,64 +69,40 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Planificación estratégica en proyectos de inteligencia de negocios (BI)',
+        titulo: 'Control y monitoreo del rendimiento de proyectos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '¿Qué es la planificación estratégica en proyectos de BI?',
+            titulo: 'Concepto y finalidad del monitoreo en proyectos BI',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
             titulo:
-              'Fases claves en la planificación estratégica de un proyecto de BI',
+              'Indicadores claves de rendimiento (KPIs) en proyectos de BI',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo:
-              'Factores claves de éxito en la planificación estratégica de BI',
+            titulo: 'Herramientas de monitoreo y control en BI',
             hash: 't_3_3',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo:
-          'Evaluación de riesgos en proyectos de Inteligencia de Negocios (BI)',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: '¿Qué es la evaluación de riesgos en proyectos de BI?',
-            hash: 't_4_1',
+            numero: '3.4',
+            titulo: 'Prácticas recomendadas para el control de proyectos BI',
+            hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.2',
+            numero: '3.5',
             titulo:
-              'Fases claves en la planificación operativa de un proyecto de BI',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Metodologías para la evaluación de riesgos en BI',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Estrategias para mitigar riesgos en proyectos de BI',
-            hash: 't_4_4',
+              'Estudio de caso. Monitoreo de un proyecto BI en entorno logístico y de salud',
+            hash: 't_3_5',
           },
         ],
       },
@@ -183,79 +175,104 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Business Intelligence (BI)',
+      termino: 'ADKAR',
       significado:
-        'Conjunto de estrategias y tecnologías para la recopilación, análisis y visualización de datos con el fin de mejorar la toma de decisiones.',
+        'Modelo de gestión del cambio centrado en la transformación individual: conciencia, deseo, conocimiento, habilidad y refuerzo.',
     },
     {
-      termino: 'Dashboards',
+      termino: 'Agile',
       significado:
-        'Herramientas visuales que permiten monitorear y analizar información clave a través de gráficos e indicadores.',
+        'Enfoque iterativo e incremental de gestión de proyectos que promueve la colaboración, adaptación y entregas frecuentes de valor.',
     },
     {
-      termino: 'Data Governance',
+      termino: 'BI (Business Intelligence)',
       significado:
-        'Conjunto de políticas y procesos que garantizan la calidad, seguridad e integridad de los datos en una organización.',
+        'Conjunto de herramientas, procesos y tecnologías que transforman datos en información útil para la toma de decisiones.',
     },
     {
-      termino: 'Data Warehouse',
+      termino: 'Cambio organizacional',
       significado:
-        'Almacén centralizado donde se integran y estructuran grandes volúmenes de datos para su análisis.',
+        'Proceso estructurado para adaptar personas, procesos y tecnología a nuevas condiciones internas o externas.',
     },
     {
-      termino: 'Gestión de proyectos',
+      termino: 'Cultura de datos',
       significado:
-        'Disciplina que aplica conocimientos, herramientas y técnicas para planificar, ejecutar y monitorear proyectos de manera eficiente.',
+        'Conjunto de valores, creencias y prácticas que promueven el uso estratégico de los datos en la toma de decisiones.',
+    },
+    {
+      termino: 'Dashboard',
+      significado:
+        'Panel visual interactivo que presenta datos clave mediante gráficas e indicadores en tiempo real para facilitar el análisis.',
+    },
+    {
+      termino: 'Design Thinking',
+      significado:
+        'Metodología centrada en las personas que permite resolver problemas complejos mediante empatía, ideación y prototipado.',
+    },
+    {
+      termino: 'Gestión del cambio',
+      significado:
+        'Disciplina que guía la transición de individuos, equipos y organizaciones hacia un estado deseado mediante acciones estratégicas.',
+    },
+    {
+      termino: 'Indicadores clave de rendimiento (KPIs)',
+      significado:
+        'Métricas cuantificables que permiten evaluar el desempeño de un proyecto en relación con sus objetivos estratégicos.',
+    },
+    {
+      termino: 'Jira',
+      significado:
+        'Herramienta de gestión ágil de proyectos que permite planificar tareas, monitorear avances y gestionar equipos colaborativos.',
     },
     {
       termino: 'Kanban',
       significado:
-        'Metodología ágil basada en tableros visuales para gestionar el flujo de trabajo y optimizar la eficiencia.',
+        'Método visual de gestión del trabajo que permite visualizar el flujo de tareas y optimizar la eficiencia del equipo.',
     },
     {
-      termino: 'Key Performance Indicator (KPI)',
+      termino: 'Kotter',
       significado:
-        'Indicadores clave de desempeño utilizados para medir el éxito de un proceso o estrategia.',
+        'Modelo de ocho pasos para liderar el cambio organizacional de manera estructurada, desde la urgencia hasta la consolidación.',
     },
     {
-      termino: 'Metodología Ágil',
+      termino: 'Liderazgo distribuido',
       significado:
-        'Conjunto de prácticas de gestión de proyectos caracterizadas por su flexibilidad y entrega incremental de valor.',
+        'Estilo de liderazgo compartido en el que distintos miembros del equipo asumen responsabilidades según su experiencia.',
     },
     {
-      termino: 'Modelo Waterfall',
+      termino: 'Monitoreo',
       significado:
-        'Enfoque tradicional de gestión de proyectos donde las fases se desarrollan de forma secuencial y estructurada.',
+        'Proceso sistemático de recopilación y análisis de datos que permite dar seguimiento al avance de un proyecto.',
     },
     {
-      termino: 'Planificación estratégica',
+      termino: 'Product Owner',
       significado:
-        'Proceso de definición de objetivos, estrategias y recursos para alcanzar metas organizacionales de manera efectiva.',
-    },
-    {
-      termino: 'Project Management Institute (PMI)',
-      significado:
-        'Organización que establece estándares y mejores prácticas en la gestión de proyectos a nivel mundial.',
-    },
-    {
-      termino: 'Riesgo en proyectos',
-      significado:
-        'Posibles eventos adversos que pueden afectar el éxito de un proyecto, requiriendo análisis y estrategias de mitigación.',
+        'Rol responsable de representar las necesidades del cliente, priorizar requerimientos y asegurar el alineamiento con los objetivos.',
     },
     {
       termino: 'Scrum',
       significado:
-        'Metodología ágil que organiza el trabajo en iteraciones llamadas sprints, promoviendo entregas rápidas y adaptativas.',
+        'Marco ágil que divide el trabajo en ciclos cortos llamados sprints, promoviendo entregas incrementales y mejora continua.',
+    },
+    {
+      termino: 'Sprint',
+      significado:
+        'Intervalo de tiempo en el que un equipo ágil completa un conjunto de tareas previamente planificadas.',
     },
     {
       termino: 'Stakeholders',
       significado:
-        'Personas o grupos interesados en un proyecto, incluyendo clientes, inversores y usuarios finales.',
+        'Personas o grupos que tienen interés o influencia en el desarrollo y resultados de un proyecto.',
+    },
+    {
+      termino: 'Toma de decisiones basada en datos',
+      significado:
+        'Proceso en el que las decisiones se fundamentan en el análisis e interpretación de datos objetivos y verificables.',
     },
     {
       termino: 'Visualización de datos',
       significado:
-        'Representación gráfica de la información mediante gráficos, tablas y dashboards para facilitar su interpretación.',
+        'Técnica para representar información compleja de manera gráfica, facilitando la comprensión y el análisis de grandes volúmenes de datos.',
     },
   ],
 }
