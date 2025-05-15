@@ -260,7 +260,7 @@
         div.px-5.pb-md-3
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/jhrP7lOENOo" title="Estrategias efectivas de liderazgo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       
       #t_2_6.titulo-segundo(data-aos="flip-up")
         div.d-flex

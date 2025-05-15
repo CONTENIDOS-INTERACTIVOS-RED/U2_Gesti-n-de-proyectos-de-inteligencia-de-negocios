@@ -167,11 +167,6 @@ export default {
         'Moreno-Monsalve, N. A., Grueso Hinestroza, M. P., & Mayett-Moreno, Y. (2023). Dirección y gestión de proyectos. Perspectiva ética. Editorial Universidad EAN.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/274727',
     },
-    {
-      referencia:
-        'Malagón Barinas, J. (2019). Modelos, metodologías y sistemas de gestión de proyectos. Editorial Universidad EAN.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/250971',
-    },
   ],
   glosario: [
     {
